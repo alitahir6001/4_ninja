@@ -33,9 +33,9 @@ ninja1.showStats();
 // Super Ninja Assignment
 
 class Sensei extends Ninja{
-    constructor(wisdom){
+    constructor(){
         super("Master Splinter");
-        this.wisdom = wisdom;
+        this.wisdom = 10;
         this.strength = 20;
         this.speed = 20;
     }
